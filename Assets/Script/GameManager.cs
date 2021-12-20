@@ -21,8 +21,8 @@ public class GameManager : MonoBehaviour
     Vector3 pos;
     //UI
     public TMP_Text display;
-    public TMP_Text characterName;
-    public TMP_Text dialogue;
+    public TMP_Text characterDialogue;
+    public TMP_Text actionQuote;
     //Card Variables
     private string leftQuote;
     private string rightQuote;
@@ -36,10 +36,10 @@ public class GameManager : MonoBehaviour
 
     void UpdateDialogue()
     {
-        dialogue.color = textColor;
+        actionQuote.color = textColor;
         if (cardGameObject.transform.position.x < 0)
         {
-            dialogue.text = leftQuote;
+            actionQuote.text = leftQuote;
             if(cardGameObject.transform.position.x < -1)
             {
                 cardColorSpriteRenderer.color = Color.red;
@@ -47,14 +47,14 @@ public class GameManager : MonoBehaviour
             else
             {
                 {
-                    cardColorSpriteRenderer.color = Color.white;
+                    cardColorSpriteRenderer.color = Color.gray;
                 }
             }
 
         }
         else if(cardGameObject.transform.position.x > 0)
         {
-            dialogue.text = rightQuote;
+            actionQuote.text = rightQuote;
             if (cardGameObject.transform.position.x > 1)
             {
                 cardColorSpriteRenderer.color = Color.green;
@@ -63,14 +63,14 @@ public class GameManager : MonoBehaviour
             else
             {
                 {
-                    cardColorSpriteRenderer.color = Color.white;
+                    cardColorSpriteRenderer.color = Color.gray;
                 }
             }
         }
         else
         {
             {
-                cardColorSpriteRenderer.color = Color.white;
+                cardColorSpriteRenderer.color = Color.gray;
             }
         }
 
@@ -85,6 +85,7 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Right();
+                NewCard();
             }
         }
 
@@ -106,6 +107,7 @@ public class GameManager : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Left();
+                NewCard();
             }
         }
        
@@ -119,7 +121,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, new Vector2(0, 0), fMovingSpeed);
+            cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, new Vector2(0, -0.81f), fMovingSpeed);
         }
         //UI
         display.text = "" + textColor.a;
@@ -131,5 +133,12 @@ public class GameManager : MonoBehaviour
         leftQuote = card.leftQuote;
         rightQuote = card.rightQuote;
         currentCard = card;
+        characterDialogue.text = card.dialogue;
+    }
+
+    public void NewCard()
+    {
+        int rollDice = Random.Range(0, resourceManagers.cards.Length);
+        LoadCard(resourceManagers.cards[rollDice]);
     }
 }

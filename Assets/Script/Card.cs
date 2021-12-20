@@ -8,6 +8,7 @@ public class Card : ScriptableObject
         public int cardID;
         public string cardName;
         public CardSprite sprite;
+        public string dialogue;
         public string leftQuote;
         public string rightQuote;
         public void Left()
