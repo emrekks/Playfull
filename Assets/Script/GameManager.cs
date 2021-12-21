@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public SpriteRenderer cardSpriteRenderer;
     public SpriteRenderer cardColorSpriteRenderer;
     public ResourceManager resourceManagers;
+    public Vector2 defaultPositionCard;
     //Tweaking variables
     public float fMovingSpeed;
     public float fSideMargin;
@@ -121,7 +122,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, new Vector2(0, -0.81f), fMovingSpeed);
+            cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, defaultPositionCard, fMovingSpeed);
         }
         //UI
         display.text = "" + textColor.a;
