@@ -12,11 +12,13 @@ public class GameManager : MonoBehaviour
     public SpriteRenderer cardColorSpriteRenderer;
     public ResourceManager resourceManagers;
     public Vector2 defaultPositionCard;
+    public Vector3 cardRotation;
     //Tweaking variables
     public float fMovingSpeed;
     public float fSideMargin;
     public float fSideTrigger;
     public float divideValue;
+    public float fRotationCoefficent;
     float alphaText;
     Color textColor;
     Vector3 pos;
@@ -123,9 +125,13 @@ public class GameManager : MonoBehaviour
         else
         {
             cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, defaultPositionCard, fMovingSpeed);
+            cardGameObject.transform.eulerAngles = new Vector3(0, 0, 0);
         }
         //UI
         display.text = "" + textColor.a;
+        
+        //Rotating The Card
+        cardGameObject.transform.eulerAngles = new Vector3(0, 0, cardGameObject.transform.position.x * fRotationCoefficent);
     }
 
     public void LoadCard(Card card)

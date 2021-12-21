@@ -192,7 +192,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 329a7aacfd7828249b4b32e02b7416d5, type: 3}
-  m_Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
+  m_Color: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -523,7 +523,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 0}
+  m_BackGroundColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -760,10 +760,12 @@ MonoBehaviour:
   cardColorSpriteRenderer: {fileID: 2012551097}
   resourceManagers: {fileID: 1103980388}
   defaultPositionCard: {x: 0, y: -1}
+  cardRotation: {x: 0, y: 0, z: 0}
   fMovingSpeed: 5
   fSideMargin: 0.5
   fSideTrigger: 2
   divideValue: 3
+  fRotationCoefficent: -1
   display: {fileID: 1536481053}
   characterDialogue: {fileID: 1537648647}
   actionQuote: {fileID: 263468362}
@@ -1623,7 +1625,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: d29c1791df7d3de4a880ad02e44b24be, type: 3}
-  m_Color: {r: 0.5372549, g: 0.5372549, b: 0.5372549, a: 1}
+  m_Color: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
