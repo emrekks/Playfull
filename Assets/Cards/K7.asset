@@ -15,6 +15,6 @@ MonoBehaviour:
   cardID: 0
   cardName: K7
   sprite: 1
-  dialogue: sa
+  dialogue: Question1
   leftQuote: left1
   rightQuote: right1

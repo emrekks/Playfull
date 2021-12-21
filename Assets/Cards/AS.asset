@@ -15,6 +15,6 @@ MonoBehaviour:
   cardID: 0
   cardName: AS
   sprite: 0
-  dialogue: "Nap\u0131yon tirrek"
-  leftQuote: iyi
-  rightQuote: sannae
+  dialogue: How Are You?
+  leftQuote: Bad
+  rightQuote: Good
