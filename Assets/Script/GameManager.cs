@@ -5,6 +5,13 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    //Game icon Variables
+    public static int mutluluk =50;
+    public static int sehirlesme = 50;
+    public static int kırsal = 50;
+    public static int para = 50;
+    public static int maxValue = 100;
+    public int minValue = 0;
     //Gameobjects
     public GameObject cardGameObject;
     public CardController mainCardController;
@@ -27,10 +34,12 @@ public class GameManager : MonoBehaviour
     public TMP_Text characterDialogue;
     public TMP_Text actionQuote;
     //Card Variables
+    public string direction;
     private string leftQuote;
     private string rightQuote;
     public Card currentCard;
     public Card testCard;
+    public int cardNumber = 0;
 
     void Start()
     {
@@ -85,6 +94,7 @@ public class GameManager : MonoBehaviour
         textColor.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, 1);
         if (cardGameObject.transform.position.x > fSideTrigger)
         {
+            direction = "right";
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Right();
@@ -94,19 +104,23 @@ public class GameManager : MonoBehaviour
 
         else if(cardGameObject.transform.position.x > fSideMargin)
         {
+            direction = "right";
         }
 
         else if (cardGameObject.transform.position.x > -fSideMargin)
         {
+            direction = "none";
             textColor.a = 0;
         }
 
         else if (cardGameObject.transform.position.x > -fSideTrigger)
         {
+            direction = "left";
         }
 
         else
         {
+            direction = "left";
             if (Input.GetMouseButtonUp(0))
             {
                 currentCard.Left();
@@ -145,7 +159,7 @@ public class GameManager : MonoBehaviour
 
     public void NewCard()
     {
-        int rollDice = Random.Range(0, resourceManagers.cards.Length);
-        LoadCard(resourceManagers.cards[rollDice]);
+        cardNumber++;
+        LoadCard(resourceManagers.cards[0]);
     }
 }

@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05b3a67c94a74564bb278e07eb1d3811, type: 3}
   m_Name: K7
   m_EditorClassIdentifier: 
-  cardID: 0
+  cardID: 1
   cardName: K7
   sprite: 1
-  dialogue: Question1
-  leftQuote: left1
-  rightQuote: right1
+  dialogue: "Baraj yap\u0131ls\u0131n"
+  leftQuote: Evet
+  rightQuote: "Hay\u0131r"
+  mutlulukLeft: 10
+  sehirlesmeLeft: 0
+  "k\u0131rsalLeft": 0
+  paraLeft: 10
+  mutlulukRight: 0
+  sehirlesmeRight: 0
+  "k\u0131rsalRight": 10
+  paraRight: 10
