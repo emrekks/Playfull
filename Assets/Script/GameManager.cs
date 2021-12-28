@@ -160,6 +160,6 @@ public class GameManager : MonoBehaviour
     public void NewCard()
     {
         cardNumber++;
-        LoadCard(resourceManagers.cards[0]);
+        LoadCard(resourceManagers.cards[cardNumber]);
     }
 }
