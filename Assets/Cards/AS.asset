@@ -16,8 +16,8 @@ MonoBehaviour:
   cardName: AS
   sprite: 0
   dialogue: "Okul yap\u0131ls\u0131n"
-  leftQuote: Evet
-  rightQuote: "Hay\u0131r"
+  leftQuote: "Hay\u0131r"
+  rightQuote: Evet
   mutlulukLeft: -10
   sehirlesmeLeft: 0
   "k\u0131rsalLeft": 10
