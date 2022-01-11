@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     //Game icon Variables
-    public static int mutluluk =50;
+    public static int mutluluk = 50;
     public static int sehirlesme = 50;
     public static int kırsal = 50;
     public static int para = 50;
@@ -40,6 +41,9 @@ public class GameManager : MonoBehaviour
     public Card currentCard;
     public Card testCard;
     public int cardNumber = 0;
+    //ManagerVariables
+    public bool isGameEnded = false;
+    int sCaseValue = 0;
 
     void Start()
     {
@@ -150,6 +154,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadCard(Card card)
     {
+        IsGameEnded();
         cardSpriteRenderer.sprite = resourceManagers.sprites[(int)card.sprite];
         leftQuote = card.leftQuote;
         rightQuote = card.rightQuote;
@@ -161,5 +166,84 @@ public class GameManager : MonoBehaviour
     {
         cardNumber++;
         LoadCard(resourceManagers.cards[cardNumber]);
+    }
+
+    public void IsGameEnded()
+    {
+        if(mutluluk <= 0 || kırsal <= 0 || sehirlesme <= 0 || para <= 0)
+
+        {
+            if (mutluluk <= 0)
+                sCaseValue = 1;
+            else if (kırsal <= 0)
+                sCaseValue = 2;
+            else if (sehirlesme <= 0)
+                sCaseValue = 3;
+            else if (para <= 0)
+                sCaseValue = 4;
+            
+            switch (sCaseValue)
+            {
+                case 1:
+                    Debug.Log("Mutluluk: " + mutluluk);
+                    isGameEnded = true;
+                    SceneManager.LoadScene("");
+                    break;
+                case 2:
+                    Debug.Log("Kırsal: " + kırsal);
+                    isGameEnded = true;
+                    SceneManager.LoadScene("");
+                    break;
+                case 3:
+                    Debug.Log("Şehir: " + sehirlesme);
+                    isGameEnded = true;
+                    SceneManager.LoadScene("");
+                    break;
+                case 4:
+                    Debug.Log("Para: " + para);
+                    isGameEnded = true;
+                    SceneManager.LoadScene("");
+                    break;
+                    
+            }
+        }
+        
+        else if (mutluluk >= 100 || kırsal >= 100 || sehirlesme >= 100 || para >= 100)
+            
+        {
+            if (mutluluk <= 100)
+                sCaseValue = 1;
+            else if (kırsal <= 100)
+                sCaseValue = 2;
+            else if (sehirlesme <= 100)
+                sCaseValue = 3;
+            else if (para <= 100)
+                sCaseValue = 4;
+            
+            switch (sCaseValue)
+            {
+                case 1:
+                    Debug.Log("Mutluluk: " + mutluluk);
+                    isGameEnded = true;
+                    SceneManager.LoadScene("");
+                    break;
+                case 2:
+                    Debug.Log("Kırsal: " + kırsal);
+                    isGameEnded = true;
+                    SceneManager.LoadScene("");
+                    break;
+                case 3:
+                    Debug.Log("Şehir: " + sehirlesme);
+                    isGameEnded = true;
+                    SceneManager.LoadScene("");
+                    break;
+                case 4:
+                    Debug.Log("Para: " + para);
+                    isGameEnded = true;
+                    SceneManager.LoadScene("");
+                    break;
+                    
+            }
+        }
     }
 }
