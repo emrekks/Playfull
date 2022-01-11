@@ -21,4 +21,9 @@ public class UIManager : MonoBehaviour
         uiIcons.SetActive(true);
         gameScene.SetActive(true);
     }
+
+    public void OnClickQuitButton()
+    {
+        Application.Quit();
+    }
 }
