@@ -187,22 +187,22 @@ public class GameManager : MonoBehaviour
                 case 1:
                     Debug.Log("Mutluluk: " + mutluluk);
                     isGameEnded = true;
-                    SceneManager.LoadScene("");
+                    SceneManager.LoadScene("MutlulukDusuk");
                     break;
                 case 2:
                     Debug.Log("Kırsal: " + kırsal);
                     isGameEnded = true;
-                    SceneManager.LoadScene("");
+                    SceneManager.LoadScene("KırsalDusuk");
                     break;
                 case 3:
                     Debug.Log("Şehir: " + sehirlesme);
                     isGameEnded = true;
-                    SceneManager.LoadScene("");
+                    SceneManager.LoadScene("SehirlesmeDusuk");
                     break;
                 case 4:
                     Debug.Log("Para: " + para);
                     isGameEnded = true;
-                    SceneManager.LoadScene("");
+                    SceneManager.LoadScene("ParaDusuk");
                     break;
                     
             }
@@ -225,22 +225,22 @@ public class GameManager : MonoBehaviour
                 case 1:
                     Debug.Log("Mutluluk: " + mutluluk);
                     isGameEnded = true;
-                    SceneManager.LoadScene("");
+                    SceneManager.LoadScene("MutlulukYuksek");
                     break;
                 case 2:
                     Debug.Log("Kırsal: " + kırsal);
                     isGameEnded = true;
-                    SceneManager.LoadScene("");
+                    SceneManager.LoadScene("KırsalYuksek");
                     break;
                 case 3:
                     Debug.Log("Şehir: " + sehirlesme);
                     isGameEnded = true;
-                    SceneManager.LoadScene("");
+                    SceneManager.LoadScene("SehirlesmeYuksek");
                     break;
                 case 4:
                     Debug.Log("Para: " + para);
                     isGameEnded = true;
-                    SceneManager.LoadScene("");
+                    SceneManager.LoadScene("ParaYuksek");
                     break;
                     
             }

@@ -4,5 +4,32 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: "Assets/Scenes/K\u0131rsalEndings/K\u0131rsalDusuk.unity"
+    guid: 20c413c9ef28a314d990ef850d942194
+  - enabled: 1
+    path: "Assets/Scenes/K\u0131rsalEndings/K\u0131rsalYuksek.unity"
+    guid: 7f51d8c4383600a48a46aa865be17fa1
+  - enabled: 1
+    path: Assets/Scenes/MutlulukEndings/MutlulukDusuk.unity
+    guid: 08deae65a61e23640bbae58c51210e9f
+  - enabled: 1
+    path: Assets/Scenes/MutlulukEndings/MutlulukYuksek.unity
+    guid: 48a74c4437698a54089d306dd8c27ac3
+  - enabled: 1
+    path: Assets/Scenes/ParaEndings/ParaDusuk.unity
+    guid: 792cb6a6a21c64b4e811bdf3fb6db6f8
+  - enabled: 1
+    path: Assets/Scenes/ParaEndings/ParaYuksek.unity
+    guid: d0c6f602264771042b21ec755c14c655
+  - enabled: 1
+    path: "Assets/Scenes/\u015Eehirle\u015FmeEndings/SehirlesmeDusuk.unity"
+    guid: dfc3dcf4a49b53546b0c05ca802b1672
+  - enabled: 1
+    path: "Assets/Scenes/\u015Eehirle\u015FmeEndings/SehirlesmeYuksek.unity"
+    guid: f1181715a0e2e0942a8859efeec6e4a3
   m_configObjects: {}
