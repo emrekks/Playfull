@@ -211,13 +211,13 @@ public class GameManager : MonoBehaviour
         else if (mutluluk >= 100 || kırsal >= 100 || sehirlesme >= 100 || para >= 100)
             
         {
-            if (mutluluk <= 100)
+            if (mutluluk >= 100)
                 sCaseValue = 1;
-            else if (kırsal <= 100)
+            else if (kırsal >= 100)
                 sCaseValue = 2;
-            else if (sehirlesme <= 100)
+            else if (sehirlesme >= 100)
                 sCaseValue = 3;
-            else if (para <= 100)
+            else if (para >= 100)
                 sCaseValue = 4;
             
             switch (sCaseValue)
