@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -15.243835, y: -1.8189894e-11}
+  m_AnchoredPosition: {x: -15.243774, y: -1.8189894e-11}
   m_SizeDelta: {x: 30.48767, y: 21.816711}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &29789914
@@ -550,7 +550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -45.732, y: -1.8189894e-11}
+  m_AnchoredPosition: {x: -45.732056, y: -1.8189894e-11}
   m_SizeDelta: {x: 30.48767, y: 21.816711}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &185626666
@@ -1807,6 +1807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiIcons: {fileID: 467626503}
   gameScene: {fileID: 1043259653}
+  emailButtonObject: {fileID: 40293057}
+  newsButtonObject: {fileID: 2100310374}
 --- !u!1 &1144469114
 GameObject:
   m_ObjectHideFlags: 0
