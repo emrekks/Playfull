@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b3a67c94a74564bb278e07eb1d3811, type: 3}
+  m_Name: "K\xF6m\xFCr_Zam"
+  m_EditorClassIdentifier: 
+  cardID: 0
+  cardName: "K\xF6m\xFCr_Zam"
+  sprite: 0
+  dialogue: "Bu y\u0131l k\xF6m\xFCr fiyatlar\u0131na zam geldi. Ormanda a\u011Fa\xE7
+    keselim mi?"
+  leftQuote: Yok olmaz
+  rightQuote: Kesin gitsin
+  mutlulukLeft: 10
+  sehirlesmeLeft: 0
+  "k\u0131rsalLeft": 10
+  paraLeft: -20
+  mutlulukRight: -10
+  sehirlesmeRight: 0
+  "k\u0131rsalRight": -10
+  paraRight: 15

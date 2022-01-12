@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b3a67c94a74564bb278e07eb1d3811, type: 3}
+  m_Name: "R\xFCzgar_Duvar\u0131"
+  m_EditorClassIdentifier: 
+  cardID: 0
+  cardName: "R\xFCzgarDuvar\u0131"
+  sprite: 0
+  dialogue: "Meteorologlar olumsuz hava ko\u015Fullar\u0131na kar\u015F\u0131n r\xFCzgar
+    duvar\u0131 in\u015Faa etmek istiyor"
+  leftQuote: "Hay\u0131r"
+  rightQuote: Olur
+  mutlulukLeft: 0
+  sehirlesmeLeft: -10
+  "k\u0131rsalLeft": 10
+  paraLeft: 0
+  mutlulukRight: 0
+  sehirlesmeRight: 10
+  "k\u0131rsalRight": -10
+  paraRight: -10

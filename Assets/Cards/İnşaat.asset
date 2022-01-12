@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b3a67c94a74564bb278e07eb1d3811, type: 3}
+  m_Name: "\u0130n\u015Faat"
+  m_EditorClassIdentifier: 
+  cardID: 0
+  cardName: "\u0130n\u015Faat"
+  sprite: 1
+  dialogue: "M\xFCtehait'in birisi bo\u015F araziye bina yapmak istiyor"
+  leftQuote: Yapamaz
+  rightQuote: "Yaps\u0131n"
+  mutlulukLeft: 10
+  sehirlesmeLeft: -10
+  "k\u0131rsalLeft": 5
+  paraLeft: -5
+  mutlulukRight: -10
+  sehirlesmeRight: 15
+  "k\u0131rsalRight": -5
+  paraRight: 5

@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05b3a67c94a74564bb278e07eb1d3811, type: 3}
-  m_Name: AS
+  m_Name: "Baz_\u0130stasyonu"
   m_EditorClassIdentifier: 
   cardID: 0
-  cardName: AS
+  cardName: Baz_Istasyonu
   sprite: 0
-  dialogue: "Okul yap\u0131ls\u0131n"
-  leftQuote: "Hay\u0131r"
-  rightQuote: Evet
+  dialogue: "Bir operat\xF6r \u015Firketi baz istasyonu kurmak istiyor"
+  leftQuote: Olmaz
+  rightQuote: 'Gelsin kursunlar '
   mutlulukLeft: -10
-  sehirlesmeLeft: 0
+  sehirlesmeLeft: -5
   "k\u0131rsalLeft": 10
-  paraLeft: 0
-  mutlulukRight: 0
+  paraLeft: -10
+  mutlulukRight: 5
   sehirlesmeRight: 10
-  "k\u0131rsalRight": 0
+  "k\u0131rsalRight": -10
   paraRight: 10
