@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardID: 0
   cardName: GDO
-  sprite: 0
+  sprite: 1
   dialogue: "Bir kimya \u015Firketi m\u0131s\u0131rlarda deney yapmak istiyor"
   leftQuote: "Hay\u0131r"
   rightQuote: "Olur Yaps\u0131nlar"

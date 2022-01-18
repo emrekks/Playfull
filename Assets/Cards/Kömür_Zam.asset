@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardID: 0
   cardName: "K\xF6m\xFCr_Zam"
-  sprite: 0
+  sprite: 1
   dialogue: "Bu y\u0131l k\xF6m\xFCr fiyatlar\u0131na zam geldi. Ormanda a\u011Fa\xE7
     keselim mi?"
   leftQuote: Yok olmaz

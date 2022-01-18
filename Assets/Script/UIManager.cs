@@ -12,11 +12,14 @@ public class UIManager : MonoBehaviour
     public GameObject newsScene;
     public GameObject emailButtonObject;
     public GameObject newsButtonObject;
+    public GameObject volumeOff;
+    public GameObject volumeOn;
     //PrivateVariables
     private Image emailImage;
     private Button emailButton;
     private Image newsImage;
     private Button newsButton;
+    private bool volumeBoolOn = true;
 
     private void Start()
     {
@@ -26,6 +29,7 @@ public class UIManager : MonoBehaviour
         newsButton = newsButtonObject.GetComponent<Button>();
         emailImage.color = emailButton.colors.pressedColor;
         newsScene.SetActive(false);
+        volumeOff.SetActive(false);
     }
 
     public void OnClickNews()
@@ -50,6 +54,22 @@ public class UIManager : MonoBehaviour
     {
         Application.Quit();
     }
-    
-    
+
+    public void MuteSound()
+    {
+        if (volumeBoolOn == true)
+        {
+            volumeOff.SetActive(true);
+            volumeOn.SetActive(false);
+            volumeBoolOn = false;
+        }
+        else
+        {
+            volumeOff.SetActive(false);
+            volumeOn.SetActive(true);
+            volumeBoolOn = true;
+        }
+    }
+
+
 }

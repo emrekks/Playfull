@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardID: 0
   cardName: Baz_Istasyonu
-  sprite: 0
+  sprite: 1
   dialogue: "Bir operat\xF6r \u015Firketi baz istasyonu kurmak istiyor"
   leftQuote: Olmaz
   rightQuote: 'Gelsin kursunlar '

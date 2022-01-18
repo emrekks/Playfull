@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardID: 0
   cardName: Nadas
-  sprite: 0
+  sprite: 1
   dialogue: "K\xF6yl\xFCler topra\u011F\u0131 nadas'a b\u0131rakmak istiyor"
   leftQuote: Olmaz
   rightQuote: "B\u0131raks\u0131nlar"

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardID: 0
   cardName: Okul
-  sprite: 0
+  sprite: 1
   dialogue: "Okul yap\u0131ls\u0131n"
   leftQuote: "Hay\u0131r"
   rightQuote: Evet

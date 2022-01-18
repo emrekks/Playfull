@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardID: 0
   cardName: Sosyal sorumluluk
-  sprite: 0
+  sprite: 1
   dialogue: "A\u011Fa\xE7 ekelim mi?"
   leftQuote: Yok
   rightQuote: Ekin

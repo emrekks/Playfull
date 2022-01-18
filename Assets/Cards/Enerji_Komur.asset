@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardID: 0
   cardName: Enerji_Komur
-  sprite: 0
+  sprite: 1
   dialogue: "Yakacak olarak k\xF6m\xFCr kullanmaya devam edelim mi?"
   leftQuote: Etmeyelim
   rightQuote: Edelim

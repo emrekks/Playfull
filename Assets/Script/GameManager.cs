@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     public GameObject cardGameObject;
     public CardController mainCardController;
     public SpriteRenderer cardSpriteRenderer;
-    public SpriteRenderer cardColorSpriteRenderer;
+    //public SpriteRenderer cardColorSpriteRenderer;
     public ResourceManager resourceManagers;
     public Vector2 defaultPositionCard;
     public Vector3 cardRotation;
@@ -56,22 +56,22 @@ public class GameManager : MonoBehaviour
         if (cardGameObject.transform.position.x < 0)
         {
             actionQuote.text = leftQuote;
-            if(cardGameObject.transform.position.x < -1)
-            {
-                cardColorSpriteRenderer.color = Color.red;
-            }
-            else
-            {
-                {
-                    cardColorSpriteRenderer.color = Color.gray;
-                }
-            }
+            // if(cardGameObject.transform.position.x < -1)
+            // {
+            //     cardColorSpriteRenderer.color = Color.red;
+            // }
+            // else
+            // {
+            //     {
+            //         cardColorSpriteRenderer.color = Color.gray;
+            //     }
+            // }
 
         }
         else if(cardGameObject.transform.position.x > 0)
         {
             actionQuote.text = rightQuote;
-            if (cardGameObject.transform.position.x > 1)
+            /*if (cardGameObject.transform.position.x > 1)
             {
                 cardColorSpriteRenderer.color = Color.green;
 
@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
         {
             {
                 cardColorSpriteRenderer.color = Color.gray;
-            }
+            }*/
         }
 
     }
@@ -155,7 +155,7 @@ public class GameManager : MonoBehaviour
     public void LoadCard(Card card)
     {
         IsGameEnded();
-        cardSpriteRenderer.sprite = resourceManagers.sprites[(int)card.sprite];
+        //cardSpriteRenderer.sprite = resourceManagers.sprites[(int)card.sprite];
         leftQuote = card.leftQuote;
         rightQuote = card.rightQuote;
         currentCard = card;
