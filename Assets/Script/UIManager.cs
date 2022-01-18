@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     [Header("UI Variables")] 
     public GameObject uiIcons;
     public GameObject gameScene;
+    public GameObject newsScene;
     public GameObject emailButtonObject;
     public GameObject newsButtonObject;
     //PrivateVariables
@@ -24,12 +25,14 @@ public class UIManager : MonoBehaviour
         newsImage = newsButtonObject.GetComponent<Image>();
         newsButton = newsButtonObject.GetComponent<Button>();
         emailImage.color = emailButton.colors.pressedColor;
+        newsScene.SetActive(false);
     }
 
     public void OnClickNews()
     {
         uiIcons.SetActive(false);
         gameScene.SetActive(false);
+        newsScene.SetActive(true);
         emailImage.color = emailButton.colors.normalColor;
         newsImage.color = newsButton.colors.pressedColor;
     }
@@ -38,6 +41,7 @@ public class UIManager : MonoBehaviour
     {
         uiIcons.SetActive(true);
         gameScene.SetActive(true);
+        newsScene.SetActive(false);
         emailImage.color = emailButton.colors.pressedColor;
         newsImage.color = newsButton.colors.normalColor;
     }
