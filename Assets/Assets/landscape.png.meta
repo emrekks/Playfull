@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 26830407ea964164687adbc0d0a1d6ca
+guid: 80c5cc089bad74b49966dd46aaed09a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5670732621190257608
-    second: Money_0
+      213: -5981993798188634692
+    second: landscape_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -49,7 +49,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 105, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -114,22 +114,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Money_0
+      name: landscape_0
       rect:
         serializedVersion: 2
-        x: 118
-        y: 202
-        width: 945
-        height: 532
+        x: 8
+        y: 105
+        width: 496
+        height: 399
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cbd34e264d72be40800000000000000
-      internalID: 5670732621190257608
+      spriteID: cbd6062a550bbfca0800000000000000
+      internalID: -5981993798188634692
       vertices: []
       indices: 
       edges: []
