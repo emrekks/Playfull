@@ -6,6 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+
+    #region Singleton
+
+
+    public static GameManager instance;
+    public void Awake()
+    {
+        instance = this;
+    }
+
+    #endregion
+
     //Game icon Variables
     public static int mutluluk = 50;
     public static int sehirlesme = 50;
@@ -94,6 +106,10 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetMouseButtonUp(0))
+        {
+            SoundManager.instance.mouseClick.Play();
+        }
         //Dialogue text handing
         textColor.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, 1);
         if (cardGameObject.transform.position.x > fSideTrigger)
@@ -132,6 +148,7 @@ public class GameManager : MonoBehaviour
             }
         }
        
+
         UpdateDialogue();
 
         //Movement
@@ -145,8 +162,7 @@ public class GameManager : MonoBehaviour
             cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, defaultPositionCard, fMovingSpeed);
             cardGameObject.transform.eulerAngles = new Vector3(0, 0, 0);
         }
-        //UI
-        display.text = "" + textColor.a;
+
         
         //Rotating The Card
         cardGameObject.transform.eulerAngles = new Vector3(0, 0, cardGameObject.transform.position.x * fRotationCoefficent);
@@ -164,6 +180,8 @@ public class GameManager : MonoBehaviour
 
     public void NewCard()
     {
+        SoundManager.instance.mailKaydirma.Play();
+        SoundManager.instance.mouseClick.Stop();
         cardNumber++;
         LoadCard(resourceManagers.cards[cardNumber]);
     }
