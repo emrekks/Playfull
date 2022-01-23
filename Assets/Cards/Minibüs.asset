@@ -10,22 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05b3a67c94a74564bb278e07eb1d3811, type: 3}
-  m_Name: GDO
+  m_Name: "Minib\xFCs"
   m_EditorClassIdentifier: 
   cardID: 0
-  cardName: GDO
-  sprite: 1
-  dialogue: A group of chemists from the metropolis came to visit our municipality.
-    According to their research, they declare that we can strengthen the products
-    on our soil with chemical supports. They say that if we let them in this regard,
-    they will also make financial investments. Shall we let?
+  cardName: "Minib\xFCs"
+  sprite: 0
+  dialogue: Especially in the morning and evening bus services, there is a stampede
+    due to the intensity. Should we increase the bus service? If we increase it,
+    people can travel more comfortably.
   leftQuote: "Hay\u0131r"
-  rightQuote: "Olur Yaps\u0131nlar"
+  rightQuote: Evet
   mutlulukLeft: 0
   sehirlesmeLeft: 0
-  "k\u0131rsalLeft": 20
-  paraLeft: -15
+  "k\u0131rsalLeft": 0
+  paraLeft: 0
   mutlulukRight: 0
   sehirlesmeRight: 0
-  "k\u0131rsalRight": -20
-  paraRight: 15
+  "k\u0131rsalRight": 0
+  paraRight: 0

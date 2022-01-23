@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: "K\xF6m\xFCr_Zam"
   m_EditorClassIdentifier: 
   cardID: 0
-  cardName: "K\xF6m\xFCr_Zam"
+  cardName: Enerji_Zam
   sprite: 1
-  dialogue: "Bu y\u0131l k\xF6m\xFCr fiyatlar\u0131na zam geldi. Ormanda a\u011Fa\xE7
-    keselim mi?"
+  dialogue: Due to the rise in oil prices, the prices of energy resources began to
+    rise at a serious rate. For fuel, shall we cut down trees in a nearby forest?
   leftQuote: Yok olmaz
   rightQuote: Kesin gitsin
   mutlulukLeft: 10

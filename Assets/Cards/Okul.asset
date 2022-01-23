@@ -15,7 +15,9 @@ MonoBehaviour:
   cardID: 0
   cardName: Okul
   sprite: 1
-  dialogue: "Okul yap\u0131ls\u0131n"
+  dialogue: The capacity of the schools in our municipality has started to fall short.
+    This situation disturbs the local people very much. Should we demolish the schools
+    and have larger schools with more capacity built instead?
   leftQuote: "Hay\u0131r"
   rightQuote: Evet
   mutlulukLeft: -40

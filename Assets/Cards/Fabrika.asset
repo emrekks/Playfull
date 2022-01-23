@@ -10,21 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05b3a67c94a74564bb278e07eb1d3811, type: 3}
-  m_Name: Ekmek
+  m_Name: Fabrika
   m_EditorClassIdentifier: 
   cardID: 0
-  cardName: Ekmek
-  sprite: 1
-  dialogue: Due to the recent fluctuations in foreign exchange rates and inflation,
-    the cost of bread production has increased a little. Shall we go for an increase
-    in bread prices?
+  cardName: Fabrika
+  sprite: 0
+  dialogue: A businessman came from the metropolis. He stated that he wanted to establish
+    a sugar factory within the borders of our municipality. Our analysts state that
+    if the right techniques are used in the long term, we can go a long way in sugar
+    production. At the same time, we can lower the unemployment rate. Shall we let
+    him set up a factory?
   leftQuote: "Hay\u0131r"
   rightQuote: Evet
-  mutlulukLeft: 10
+  mutlulukLeft: 0
   sehirlesmeLeft: 0
   "k\u0131rsalLeft": 0
-  paraLeft: -10
-  mutlulukRight: -10
+  paraLeft: 0
+  mutlulukRight: 0
   sehirlesmeRight: 0
   "k\u0131rsalRight": 0
-  paraRight: 10
+  paraRight: 0

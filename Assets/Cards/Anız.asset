@@ -15,14 +15,16 @@ MonoBehaviour:
   cardID: 0
   cardName: "An\u0131z"
   sprite: 1
-  dialogue: "K\xF6yl\xFCler an\u0131z yakmak istiyor"
+  dialogue: ' The villagers have harvested this year and they want to burn the remaining
+    rooted stems in the soil. This was much easier for them. Shall we let the villagers
+    burn stubble?'
   leftQuote: Yakamazlar
   rightQuote: "Yaks\u0131nlar"
   mutlulukLeft: 10
   sehirlesmeLeft: 10
   "k\u0131rsalLeft": -10
   paraLeft: 0
-  mutlulukRight: -10
+  mutlulukRight: 10
   sehirlesmeRight: 0
   "k\u0131rsalRight": 10
   paraRight: 0

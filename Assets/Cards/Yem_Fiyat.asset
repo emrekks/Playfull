@@ -15,8 +15,9 @@ MonoBehaviour:
   cardID: 0
   cardName: Yem_Fiyat
   sprite: 1
-  dialogue: "Yem fiyatlar\u0131 artt\u0131, kalitesiz tah\u0131l katal\u0131m m\u0131
-    i\xE7ine?"
+  dialogue: Due to fluctuating foreign exchange rates and inflation, feed prices
+    broke the records of the last 10 years. Should we add poor-quality grains to
+    animal feeds in order to reduce these costs?
   leftQuote: Yok
   rightQuote: "Kat\u0131n"
   mutlulukLeft: 10

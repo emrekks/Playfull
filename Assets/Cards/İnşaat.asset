@@ -15,7 +15,9 @@ MonoBehaviour:
   cardID: 0
   cardName: "\u0130n\u015Faat"
   sprite: 1
-  dialogue: "M\xFCtehait'in birisi bo\u015F araziye bina yapmak istiyor"
+  dialogue: Contractors say that they want to build a luxury site for the park in
+    the center. They stated that this situation might both help the development of
+    our municipality in the long run and financially. What is your opinion?
   leftQuote: Yapamaz
   rightQuote: "Yaps\u0131n"
   mutlulukLeft: 10

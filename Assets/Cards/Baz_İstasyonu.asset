@@ -15,7 +15,10 @@ MonoBehaviour:
   cardID: 0
   cardName: Baz_Istasyonu
   sprite: 1
-  dialogue: "Bir operat\xF6r \u015Firketi baz istasyonu kurmak istiyor"
+  dialogue: In some parts of the municipality, the people complain that the phones
+    are not working. By contacting local GSM operators, we can strengthen the phone
+    signals within the borders of our municipality zone with new generation 5G base
+    stations in the shortest term. What is your opinion?
   leftQuote: Olmaz
   rightQuote: 'Gelsin kursunlar '
   mutlulukLeft: -10

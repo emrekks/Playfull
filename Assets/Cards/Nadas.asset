@@ -15,7 +15,10 @@ MonoBehaviour:
   cardID: 0
   cardName: Nadas
   sprite: 1
-  dialogue: "K\xF6yl\xFCler topra\u011F\u0131 nadas'a b\u0131rakmak istiyor"
+  dialogue: This year, the villagers especially want to leave their agricultural
+    lands to fallow. In other words, no product will be obtained for a year, but
+    after a year, it is expected that the yield in the soil will increase. Shall
+    we allow the peasants to fallow their land?
   leftQuote: Olmaz
   rightQuote: "B\u0131raks\u0131nlar"
   mutlulukLeft: -10

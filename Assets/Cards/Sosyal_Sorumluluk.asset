@@ -15,7 +15,10 @@ MonoBehaviour:
   cardID: 0
   cardName: Sosyal sorumluluk
   sprite: 1
-  dialogue: "A\u011Fa\xE7 ekelim mi?"
+  dialogue: A group of activists from the metropolis and foundations that care about
+    nature wants to plant saplings in an area of our municipality for forestation
+    works. They are demanding that we only cover the costs of the saplings without
+    any profit motive. Shall we grant?
   leftQuote: Yok
   rightQuote: Ekin
   mutlulukLeft: -10

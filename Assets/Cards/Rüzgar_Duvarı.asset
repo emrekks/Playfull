@@ -15,8 +15,10 @@ MonoBehaviour:
   cardID: 0
   cardName: "R\xFCzgarDuvar\u0131"
   sprite: 1
-  dialogue: "Meteorologlar olumsuz hava ko\u015Fullar\u0131na kar\u015F\u0131n r\xFCzgar
-    duvar\u0131 in\u015Faa etmek istiyor"
+  dialogue: Meteorologists expect windstorms to occur soon and recommend that we
+    build a wind wall along the sides of highways. They state that if there is a
+    wind storm occurs, it can prevent a possible road closure by blocking the dust
+    that will come to the road. Shall we build a wind wall?
   leftQuote: "Hay\u0131r"
   rightQuote: Olur
   mutlulukLeft: 0

@@ -15,7 +15,9 @@ MonoBehaviour:
   cardID: 1
   cardName: Baraj
   sprite: 1
-  dialogue: "Baraj yap\u0131ls\u0131n"
+  dialogue: Some engineers working in the municipality have developed a dam project
+    for a nearby river and, they want to do this project. Are you interested in this
+    project; should we put it into operation?
   leftQuote: "Hay\u0131r"
   rightQuote: Evet
   mutlulukLeft: 5
