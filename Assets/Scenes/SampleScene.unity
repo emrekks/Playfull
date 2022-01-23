@@ -2025,6 +2025,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e4379718f5b8fe049ae2bb66c47979ed, type: 2}
   - {fileID: 11400000, guid: 90ad48358d594734485e773af801e4fc, type: 2}
   - {fileID: 11400000, guid: f82cc15bad75e694bae1e3369f30bcdd, type: 2}
+  - {fileID: 11400000, guid: f82cc15bad75e694bae1e3369f30bcdd, type: 2}
 --- !u!4 &1103980389
 Transform:
   m_ObjectHideFlags: 0
@@ -2068,7 +2069,7 @@ MonoBehaviour:
   actionQuote: {fileID: 263468362}
   direction: 
   currentCard: {fileID: 0}
-  testCard: {fileID: 11400000, guid: f82cc15bad75e694bae1e3369f30bcdd, type: 2}
+  testCard: {fileID: 11400000, guid: 15eddb1d1a9d30447aac5213ba284f17, type: 2}
   cardNumber: 0
   isGameEnded: 0
 --- !u!114 &1103980391

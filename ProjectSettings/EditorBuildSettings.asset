@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 736c8c720733a544eb87189564a88fb5
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -32,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\u015Eehirle\u015FmeEndings/SehirlesmeYuksek.unity"
     guid: f1181715a0e2e0942a8859efeec6e4a3
+  - enabled: 1
+    path: Assets/Scenes/DengeliSon.unity
+    guid: 639c86c5497e2aa44845c83119092f6a
   m_configObjects: {}
