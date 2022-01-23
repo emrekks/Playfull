@@ -25,19 +25,19 @@ public class Card : ScriptableObject
     public void Left()
         {
         Debug.Log(cardName + " swiped left");
-        GameManager.mutluluk += mutlulukLeft;
-        GameManager.sehirlesme += sehirlesmeLeft;
-        GameManager.kırsal += kırsalLeft;
-        GameManager.para += paraLeft;
+        GameManager.instance.mutluluk += mutlulukLeft;
+        GameManager.instance.sehirlesme += sehirlesmeLeft;
+        GameManager.instance.kırsal += kırsalLeft;
+        GameManager.instance.para += paraLeft;
         }
 
         public void Right()
         {
         Debug.Log(cardName + " swiped right");
-        GameManager.mutluluk += mutlulukRight;
-        GameManager.sehirlesme += sehirlesmeRight;
-        GameManager.kırsal += kırsalRight;
-        GameManager.para += paraRight;
+        GameManager.instance.mutluluk += mutlulukRight;
+        GameManager.instance.sehirlesme += sehirlesmeRight;
+        GameManager.instance.kırsal += kırsalRight;
+        GameManager.instance.para += paraRight;
         }
 
 }

@@ -20,10 +20,10 @@ public class Interface : MonoBehaviour
     void Update()
     {
         //UI icons
-        mutluluk.fillAmount = (float)GameManager.mutluluk / GameManager.maxValue;
-        sehirlesme.fillAmount = (float)GameManager.sehirlesme / GameManager.maxValue;
-        kırsal.fillAmount = (float)GameManager.kırsal / GameManager.maxValue;
-        para.fillAmount = (float)GameManager.para / GameManager.maxValue;
+        mutluluk.fillAmount = (float)GameManager.instance.mutluluk / GameManager.instance.maxValue;
+        sehirlesme.fillAmount = (float)GameManager.instance.sehirlesme / GameManager.instance.maxValue;
+        kırsal.fillAmount = (float)GameManager.instance.kırsal / GameManager.instance.maxValue;
+        para.fillAmount = (float)GameManager.instance.para / GameManager.instance.maxValue;
 
         //Right
         if(gameManager.direction == "right")

@@ -19,11 +19,11 @@ public class GameManager : MonoBehaviour
     #endregion
 
     //Game icon Variables
-    public static int mutluluk = 50;
-    public static int sehirlesme = 50;
-    public static int kırsal = 50;
-    public static int para = 50;
-    public static int maxValue = 100;
+    public int mutluluk = 50;
+    public int sehirlesme = 50;
+    public int kırsal = 50;
+    public int para = 50;
+    public int maxValue = 100;
     public int minValue = 0;
     //Gameobjects
     public GameObject cardGameObject;

@@ -27,7 +27,7 @@ public class ChangeNews : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameManager.mutluluk < 50)
+        if(GameManager.instance.mutluluk < 50)
         {
             Photo1.sprite = MutlulukAz;
         }
@@ -36,7 +36,7 @@ public class ChangeNews : MonoBehaviour
             Photo1.sprite = MutlulukCok;
         }
         
-        if (GameManager.sehirlesme < 50)
+        if (GameManager.instance.sehirlesme < 50)
         {
             Photo2.sprite = SehirlesmeAz;
         }
@@ -45,7 +45,7 @@ public class ChangeNews : MonoBehaviour
             Photo2.sprite = SehirlesmeCok;
         }
        
-        if (GameManager.kırsal < 50)
+        if (GameManager.instance.kırsal < 50)
         {
             Photo3.sprite = DogaCok;
         }
@@ -54,7 +54,7 @@ public class ChangeNews : MonoBehaviour
             Photo3.sprite = DogaAz;
         }
        
-        if (GameManager.para < 50)
+        if (GameManager.instance.para < 50)
         {
             Photo4.sprite = ParaCok;
         }
