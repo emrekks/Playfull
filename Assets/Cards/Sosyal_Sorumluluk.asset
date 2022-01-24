@@ -19,8 +19,8 @@ MonoBehaviour:
     nature wants to plant saplings in an area of our municipality for forestation
     works. They are demanding that we only cover the costs of the saplings without
     any profit motive. Shall we grant?
-  leftQuote: Yok
-  rightQuote: Ekin
+  leftQuote: Reject
+  rightQuote: Approve
   mutlulukLeft: -10
   sehirlesmeLeft: 0
   "k\u0131rsalLeft": -10

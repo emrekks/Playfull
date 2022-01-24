@@ -19,13 +19,13 @@ MonoBehaviour:
     lot in a densely populated area. We think that this situation will make the local
     people very happy. But we may need to buy from people who have shares in the
     vacant land. Shall we buy the land for the park?
-  leftQuote: "Hay\u0131r"
-  rightQuote: Evet
-  mutlulukLeft: 0
-  sehirlesmeLeft: 0
+  leftQuote: No need
+  rightQuote: Buy it
+  mutlulukLeft: -5
+  sehirlesmeLeft: -10
   "k\u0131rsalLeft": 0
-  paraLeft: 0
-  mutlulukRight: 0
-  sehirlesmeRight: 0
+  paraLeft: 5
+  mutlulukRight: 10
+  sehirlesmeRight: 10
   "k\u0131rsalRight": 0
-  paraRight: 0
+  paraRight: -15

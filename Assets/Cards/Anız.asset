@@ -18,9 +18,9 @@ MonoBehaviour:
   dialogue: ' The villagers have harvested this year and they want to burn the remaining
     rooted stems in the soil. This was much easier for them. Shall we let the villagers
     burn stubble?'
-  leftQuote: Yakamazlar
-  rightQuote: "Yaks\u0131nlar"
-  mutlulukLeft: 10
+  leftQuote: "Don\u2019t let them "
+  rightQuote: Let them
+  mutlulukLeft: -10
   sehirlesmeLeft: 10
   "k\u0131rsalLeft": -10
   paraLeft: 0

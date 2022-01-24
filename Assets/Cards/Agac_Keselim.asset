@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05b3a67c94a74564bb278e07eb1d3811, type: 3}
-  m_Name: "K\xF6m\xFCr_Zam"
+  m_Name: Agac_Keselim
   m_EditorClassIdentifier: 
   cardID: 0
-  cardName: Enerji_Zam
+  cardName: Agac_Keselim
   sprite: 1
   dialogue: Due to the rise in oil prices, the prices of energy resources began to
     rise at a serious rate. For fuel, shall we cut down trees in a nearby forest?
-  leftQuote: Yok olmaz
-  rightQuote: Kesin gitsin
+  leftQuote: 'No '
+  rightQuote: Cut the trees
   mutlulukLeft: 10
   sehirlesmeLeft: 0
   "k\u0131rsalLeft": 10

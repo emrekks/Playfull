@@ -17,13 +17,13 @@ MonoBehaviour:
   sprite: 0
   dialogue: Pigs from a nearby pig farm have escaped. Pigs haunted some neighborhoods
     and villages. Shall we send the hunters to hunt the pigs?
-  leftQuote: "Hay\u0131r"
-  rightQuote: Evet
-  mutlulukLeft: 0
+  leftQuote: "Don\u2019t send"
+  rightQuote: Send
+  mutlulukLeft: -5
   sehirlesmeLeft: 0
-  "k\u0131rsalLeft": 0
+  "k\u0131rsalLeft": 5
   paraLeft: 0
-  mutlulukRight: 0
+  mutlulukRight: 10
   sehirlesmeRight: 0
-  "k\u0131rsalRight": 0
-  paraRight: 0
+  "k\u0131rsalRight": -5
+  paraRight: -5

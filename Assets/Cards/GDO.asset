@@ -19,13 +19,13 @@ MonoBehaviour:
     According to their research, they declare that we can strengthen the products
     on our soil with chemical supports. They say that if we let them in this regard,
     they will also make financial investments. Shall we let?
-  leftQuote: "Hay\u0131r"
-  rightQuote: "Olur Yaps\u0131nlar"
-  mutlulukLeft: 0
+  leftQuote: 'No way '
+  rightQuote: Sure
+  mutlulukLeft: 5
   sehirlesmeLeft: 0
   "k\u0131rsalLeft": 20
   paraLeft: -15
-  mutlulukRight: 0
-  sehirlesmeRight: 0
+  mutlulukRight: -5
+  sehirlesmeRight: 5
   "k\u0131rsalRight": -20
   paraRight: 15

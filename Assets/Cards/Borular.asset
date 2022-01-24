@@ -18,13 +18,13 @@ MonoBehaviour:
   dialogue: Engineers have noticed for a long time that sewers and underground tunnels
     are unchecked. They want to check the sewers and underground tunnels so that
     there is no possible problem in the future. Shall we let?
-  leftQuote: "Hay\u0131r"
-  rightQuote: Evet
+  leftQuote: 'Reject '
+  rightQuote: Approve
   mutlulukLeft: 0
-  sehirlesmeLeft: 0
+  sehirlesmeLeft: -5
   "k\u0131rsalLeft": 0
   paraLeft: 0
   mutlulukRight: 0
-  sehirlesmeRight: 0
+  sehirlesmeRight: 5
   "k\u0131rsalRight": 0
-  paraRight: 0
+  paraRight: -5

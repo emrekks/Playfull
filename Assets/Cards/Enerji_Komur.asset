@@ -19,13 +19,13 @@ MonoBehaviour:
     to realize a project in our municipality to use natural gas fuel. But local people
     are afraid of the costs of natural gas. So, they want to continue using coal
     as fuel because it is cheaper. What is your decision?
-  leftQuote: Etmeyelim
-  rightQuote: Edelim
+  leftQuote: Listen to the engineers
+  rightQuote: Listen to the locals
   mutlulukLeft: 0
-  sehirlesmeLeft: 0
+  sehirlesmeLeft: -5
   "k\u0131rsalLeft": 10
   paraLeft: 0
   mutlulukRight: 0
   sehirlesmeRight: 0
-  "k\u0131rsalRight": -20
+  "k\u0131rsalRight": -10
   paraRight: 0

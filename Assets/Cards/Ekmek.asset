@@ -18,8 +18,8 @@ MonoBehaviour:
   dialogue: Due to the recent fluctuations in foreign exchange rates and inflation,
     the cost of bread production has increased a little. Shall we go for an increase
     in bread prices?
-  leftQuote: "Hay\u0131r"
-  rightQuote: Evet
+  leftQuote: No, keep it same
+  rightQuote: Increase the price
   mutlulukLeft: 10
   sehirlesmeLeft: 0
   "k\u0131rsalLeft": 0

@@ -19,13 +19,13 @@ MonoBehaviour:
     are not working. By contacting local GSM operators, we can strengthen the phone
     signals within the borders of our municipality zone with new generation 5G base
     stations in the shortest term. What is your opinion?
-  leftQuote: Olmaz
-  rightQuote: 'Gelsin kursunlar '
-  mutlulukLeft: -10
+  leftQuote: 'Not necessary '
+  rightQuote: 'Built new base stations '
+  mutlulukLeft: -20
   sehirlesmeLeft: -5
   "k\u0131rsalLeft": 10
-  paraLeft: -10
-  mutlulukRight: 5
+  paraLeft: -5
+  mutlulukRight: 10
   sehirlesmeRight: 10
-  "k\u0131rsalRight": -10
-  paraRight: 10
+  "k\u0131rsalRight": -5
+  paraRight: 5

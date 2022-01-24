@@ -18,11 +18,11 @@ MonoBehaviour:
   dialogue: The capacity of the schools in our municipality has started to fall short.
     This situation disturbs the local people very much. Should we demolish the schools
     and have larger schools with more capacity built instead?
-  leftQuote: "Hay\u0131r"
-  rightQuote: Evet
-  mutlulukLeft: -40
+  leftQuote: No
+  rightQuote: Yes
+  mutlulukLeft: -20
   sehirlesmeLeft: 0
-  "k\u0131rsalLeft": 10
+  "k\u0131rsalLeft": 0
   paraLeft: 0
   mutlulukRight: 15
   sehirlesmeRight: 5

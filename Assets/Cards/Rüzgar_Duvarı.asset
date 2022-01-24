@@ -19,8 +19,8 @@ MonoBehaviour:
     build a wind wall along the sides of highways. They state that if there is a
     wind storm occurs, it can prevent a possible road closure by blocking the dust
     that will come to the road. Shall we build a wind wall?
-  leftQuote: "Hay\u0131r"
-  rightQuote: Olur
+  leftQuote: No need
+  rightQuote: Of course
   mutlulukLeft: 0
   sehirlesmeLeft: -10
   "k\u0131rsalLeft": 10

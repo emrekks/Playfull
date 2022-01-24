@@ -20,13 +20,13 @@ MonoBehaviour:
     if the right techniques are used in the long term, we can go a long way in sugar
     production. At the same time, we can lower the unemployment rate. Shall we let
     him set up a factory?
-  leftQuote: "Hay\u0131r"
-  rightQuote: Evet
-  mutlulukLeft: 0
-  sehirlesmeLeft: 0
-  "k\u0131rsalLeft": 0
-  paraLeft: 0
-  mutlulukRight: 0
-  sehirlesmeRight: 0
-  "k\u0131rsalRight": 0
-  paraRight: 0
+  leftQuote: No
+  rightQuote: Yes
+  mutlulukLeft: -5
+  sehirlesmeLeft: -15
+  "k\u0131rsalLeft": 10
+  paraLeft: -5
+  mutlulukRight: 5
+  sehirlesmeRight: 15
+  "k\u0131rsalRight": -5
+  paraRight: 10

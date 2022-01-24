@@ -15,7 +15,18 @@ MonoBehaviour:
   cardID: 0
   cardName: tutorial
   sprite: 0
-  dialogue: tutorial
+  dialogue: Hello President!  You came here after an unfortunate event. As you know...
+    our previous mayor passed away. Our people are very upset and there is only one
+    month left until the election. In this short period, someone had to run the municipality. 
+    The moment I found out that you were going to be mayor temporarily until a new
+    mayor was elected, I prepared everything! Your computer is completely up to date,
+    no viruses. All you have to do is to indicate your preferences by swiping the
+    suggestions that I will send you via e-mail to the right or left of the screen.
+    Remember, municipal business is a business of balance. While your choices may
+    be good for some areas and bad for others, the important thing is to keep them
+    all in balance.  And without forgetting, you can follow the latest developments
+    from the news tab and be informed about the results of your decisions!  Congratulations
+    on your new temporary position and good luck!
   leftQuote: 
   rightQuote: 
   mutlulukLeft: 0

@@ -18,13 +18,13 @@ MonoBehaviour:
   dialogue: Especially in the morning and evening bus services, there is a stampede
     due to the intensity. Should we increase the bus service? If we increase it,
     people can travel more comfortably.
-  leftQuote: "Hay\u0131r"
-  rightQuote: Evet
-  mutlulukLeft: 0
-  sehirlesmeLeft: 0
-  "k\u0131rsalLeft": 0
+  leftQuote: 'No need '
+  rightQuote: 'Increase '
+  mutlulukLeft: -15
+  sehirlesmeLeft: -5
+  "k\u0131rsalLeft": 5
   paraLeft: 0
-  mutlulukRight: 0
-  sehirlesmeRight: 0
-  "k\u0131rsalRight": 0
-  paraRight: 0
+  mutlulukRight: 15
+  sehirlesmeRight: 5
+  "k\u0131rsalRight": -10
+  paraRight: -10

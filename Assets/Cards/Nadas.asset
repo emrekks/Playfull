@@ -19,8 +19,8 @@ MonoBehaviour:
     lands to fallow. In other words, no product will be obtained for a year, but
     after a year, it is expected that the yield in the soil will increase. Shall
     we allow the peasants to fallow their land?
-  leftQuote: Olmaz
-  rightQuote: "B\u0131raks\u0131nlar"
+  leftQuote: "Don\u2019t let them "
+  rightQuote: Let them
   mutlulukLeft: -10
   sehirlesmeLeft: 0
   "k\u0131rsalLeft": 10

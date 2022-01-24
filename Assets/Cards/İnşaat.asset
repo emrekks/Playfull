@@ -18,8 +18,8 @@ MonoBehaviour:
   dialogue: Contractors say that they want to build a luxury site for the park in
     the center. They stated that this situation might both help the development of
     our municipality in the long run and financially. What is your opinion?
-  leftQuote: Yapamaz
-  rightQuote: "Yaps\u0131n"
+  leftQuote: No way
+  rightQuote: Of course
   mutlulukLeft: 10
   sehirlesmeLeft: -10
   "k\u0131rsalLeft": 5

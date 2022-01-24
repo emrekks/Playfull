@@ -18,11 +18,11 @@ MonoBehaviour:
   dialogue: Due to fluctuating foreign exchange rates and inflation, feed prices
     broke the records of the last 10 years. Should we add poor-quality grains to
     animal feeds in order to reduce these costs?
-  leftQuote: Yok
-  rightQuote: "Kat\u0131n"
+  leftQuote: Reject
+  rightQuote: Approve
   mutlulukLeft: 10
   sehirlesmeLeft: 0
-  "k\u0131rsalLeft": 10
+  "k\u0131rsalLeft": 5
   paraLeft: -20
   mutlulukRight: -10
   sehirlesmeRight: 0
