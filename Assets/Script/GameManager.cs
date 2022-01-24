@@ -106,6 +106,11 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if(cardNumber >= 19)
+        {
+            SceneManager.LoadScene("DengeliSon");
+        }
+
         if (Input.GetMouseButtonUp(0))
         {
             SoundManager.instance.mouseClick.Play();
